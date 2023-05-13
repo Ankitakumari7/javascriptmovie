@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header, nav, main, footer {
+	display: block;
+}
+/* Styling for the seat grid */
+.seat {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.seat-available {
+  background-color: green;
+}
+
+.seat-booked {
+  background-color: blue;
+}
+
+.seat-selected {
+  background-color: yellow;
+}
+
+
+/* Header Styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	color: #333;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* Main Styles */
+main {
+	margin: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+.btn {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+/* Table Styles */
+table {
+	border-collapse: collapse;
+}
+
+table th, table td {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: center;
+}
+
+table th {
+	background-color: #f2f2f2;
+}
+
+/* List Styles */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul li {
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+ul li h3 {
+	margin-bottom: 10px;
+}
+
+ul li p {
+	margin: 0;
+}
+
+/* Form Styles */
+form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+form label {
+	margin-bottom: 10px;
+}
+
+form input[type=text], form input[type=email], form input[type=password], form select {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+form select {
+	padding: 5px;
+}
+
+form input[type=submit] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+form input[type=submit]:hover {
+	background-color: #666;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+}
